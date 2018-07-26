@@ -8,8 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AViewController: UIViewController {
+    
+    
+   @IBOutlet weak var startTimeButton: UIButton!
+    
 
+    @IBAction func buttonIsPressed(_ sender: Any) {
+        print("aaaaaaaa")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
